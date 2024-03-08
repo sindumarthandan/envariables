@@ -13,7 +13,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 jobs:
-  example_matrix:
+  Task:
     strategy:
       matrix:
         version: [10,12,14]
