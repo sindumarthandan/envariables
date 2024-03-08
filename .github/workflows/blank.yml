@@ -16,7 +16,7 @@ jobs:
   Task:
     strategy:
       matrix:
-        version: [10,12,14]
+        version: [10]
         names: ['test1' ,'test2']
     # condition     
     #if: ${{ github.ref == 'refs/heads/main' }}  
